@@ -1,0 +1,11 @@
+#shop{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    #shop{
+        flex-direction: column-reverse;
+    }
+}
