@@ -22,7 +22,7 @@ const Product = (props) => {
                 <div className="card-footer">
                     <h3 className="course-price">${price}</h3>
                     <button className="course-add-button" onClick={() => { props.addToCart(props.course) }}>
-                        Add to Cart
+                        <i className="fas fa-cart-plus" style={{ marginRight: '5px' }}></i>Add to Cart
                     </button>
                 </div>
             </div>
