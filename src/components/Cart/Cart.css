@@ -29,7 +29,7 @@ ul{
 #empty-cart-button{
     font-size: 25px;
     font-weight: bold;
-    background-color: darkorange;
+    background-color: crimson;
     color: white;
     width: 100%;
     padding: 10px;
@@ -39,5 +39,5 @@ ul{
     cursor: pointer;
 }
 #empty-cart-button:hover{
-    background-color: #ff7300;
+    background-color: #ff0000;
 }
