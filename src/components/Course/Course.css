@@ -5,7 +5,7 @@
     justify-content: space-between;
     width: 250px;
     padding: 20px;
-    margin: 20px;
+    background: linear-gradient(45deg,#e7e7e7,white,#ffe4e9);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
 }

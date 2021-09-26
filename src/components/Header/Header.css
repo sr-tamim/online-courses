@@ -1,7 +1,7 @@
 /* webpage header styles */
 header{
     text-align: center;
-    padding: 20px 0;
+    padding: 30px 0;
     color: white;
     text-shadow: 0 0 10px black;
     background: url('https://i.ibb.co/q0R9MGc/image.png') no-repeat;
@@ -19,8 +19,8 @@ header::after{
 }
 /* set font size of heading tags */
 header h1{
-    font-size: 60px;
+    font-size: 50px;
 }
 header h2{
-    font-size: 40px;
+    font-size: 30px;
 }
