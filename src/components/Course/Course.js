@@ -1,17 +1,23 @@
+// import all necessary resources
 import React from 'react';
-import './Product.css';
+import './Course.css';
 
 
 
-const Product = (props) => {
+const Course = (props) => {
+    // destructure course information from props
     const { name, img, price, skills } = props.course;
 
     return (
         <div className="course">
+            {/* course thumbnail */}
             <div className="course-img"><img src={img} alt={name} /></div>
 
+            {/* course information */}
             <div className="course-info">
+                {/* course name */}
                 <h2 className="course-name">{name}</h2>
+                {/* offering skills */}
                 <div className="course-skills">
                     <div>
                         {
@@ -19,6 +25,7 @@ const Product = (props) => {
                         }
                     </div>
                 </div>
+                {/* course price and add to cart button */}
                 <div className="card-footer">
                     <h3 className="course-price">${price}</h3>
                     <button className="course-add-button" onClick={() => { props.addToCart(props.course) }}>
@@ -30,4 +37,4 @@ const Product = (props) => {
     );
 };
 
-export default Product;
+export default Course;

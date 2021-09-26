@@ -1,9 +1,12 @@
+
+/* all courses and cart container styling */
 #shop{
     display: flex;
     justify-content: space-around;
     position: relative;
 }
 
+/* show cart top of all courses (not on side) in small devices */
 @media screen and (max-width: 768px) {
     #shop{
         flex-direction: column-reverse;

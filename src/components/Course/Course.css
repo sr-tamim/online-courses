@@ -1,3 +1,4 @@
+/* styles for every single course container */
 .course{
     display: flex;
     flex-direction: column;
@@ -8,6 +9,7 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
 }
+/* change course container width in larger screen */
 @media screen and (min-width: 1500px) {
     .course{ width: 300px; }
 }

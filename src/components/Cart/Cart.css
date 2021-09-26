@@ -1,4 +1,4 @@
-
+/* cart styles */
 #cart{
     display: flex;
     justify-content: center;
@@ -8,6 +8,7 @@
     margin: 20px 0;
     border-radius: 20px;
 }
+/* set cart container as sticky element */
 #cart-container{
     position: sticky;
     top: 100px;
@@ -26,6 +27,8 @@ tr > td:nth-child(2){
 ul{
     font-size: 18px;
 }
+
+/* clear all from cart button styles */
 #empty-cart-button{
     font-size: 25px;
     font-weight: bold;

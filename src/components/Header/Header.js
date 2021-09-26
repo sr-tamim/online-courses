@@ -1,3 +1,4 @@
+// import all necessary resources
 import React from 'react';
 import '../Header/Header.css'
 

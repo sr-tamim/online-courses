@@ -1,4 +1,4 @@
-
+/* webpage header styles */
 header{
     text-align: center;
     padding: 20px 0;
@@ -8,7 +8,7 @@ header{
     background-position: center;
     background-size: cover;
 }
-
+/* set font size of heading tags */
 header h1{
     font-size: 60px;
 }
