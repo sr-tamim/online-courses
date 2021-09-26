@@ -7,6 +7,15 @@ header{
     background: url('https://i.ibb.co/q0R9MGc/image.png') no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
+    isolation: isolate;
+}
+header::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(rgba(0, 0, 0,0.6),rgba(20, 77, 220, 0.3));
+    z-index: -1;
 }
 /* set font size of heading tags */
 header h1{
